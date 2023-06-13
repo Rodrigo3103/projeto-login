@@ -76,18 +76,37 @@ GRANDES TELAS: ACIMA DE 1200PX
 
     div#formulario {
         font-size: 1.2em;
+        padding:50px ;
     }
 
-    div#formulario {
-        font-size: 2em;
-    }
-    
+
 
 
     h1:hover {
         
         color: gray
 
+    }
+    div.campo {
+        margin-top: 30px;
+        padding-bottom: 3em;
+    }
+
+    input#ilogin,#isenha {
+        
+        padding-right: 350px;
+        padding-bottom: 15px;
+        font-display: initial;
+         
+    }
+
+    .mandar {
+        margin: 20px 0px;
+  
+        vertical-align: middle;
+        position: relative;
+        top: -50%;
+        
     }
 
 }
