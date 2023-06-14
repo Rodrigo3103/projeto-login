@@ -8,6 +8,7 @@ TABLET: 768PX ATÉ 992PX
 DESKTOP: 992PX ATÉ 1200PX
 GRANDES TELAS: ACIMA DE 1200PX
 */
+/*Configuração para Tablet's*/
 
 @media screen and (min-width: 768px) and (max-width:992px){
     body {
@@ -15,7 +16,10 @@ GRANDES TELAS: ACIMA DE 1200PX
     }
     
     section#login {
-        width: 80vw;
+        width: 70vw;
+        height: 40vh;
+
+        
             
     }
 
@@ -44,9 +48,22 @@ GRANDES TELAS: ACIMA DE 1200PX
         top: 50%;
     }
 
+    div.campo > input {
+        width: calc(100% - 43.5PX);
+ 
+    }
+
+    div.campo > input#ilogin {
+        
+        transform: translateY(-23%)
+        
+    }
 
 
 }
+/*---------------------------------------------------------*/
+
+/*Configuração para Notebook's*/
 
 @media screen and (min-width: 992px) and (max-width: 1370px)  {
 
@@ -67,10 +84,11 @@ GRANDES TELAS: ACIMA DE 1200PX
         width: 50%;
     }
 
-
-
-
 }
+
+/*---------------------------------------------------------*/
+
+/*Configuração para TV's*/
 
 @media screen and (min-width: 1371px) {
     body {
@@ -128,5 +146,15 @@ GRANDES TELAS: ACIMA DE 1200PX
         
     }
 
+    div.campo > input {
+        width: calc(100% - 47PX);
+        height: 44px;
+        margin-top: 5px;
+        
+       
+
+ 
+    }
+
 }
-    
+/*-----------------------------------------------------*/    

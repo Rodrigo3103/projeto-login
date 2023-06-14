@@ -14,6 +14,7 @@
 }
 
 body, html {
+    
     background-color: #5f2c82 ;
     height: 100vh;
     width:100vw;
@@ -70,10 +71,11 @@ div#formulario {
 
 form > div.campo {
     background-color: #5f2c82;
+    border: 2px solid #5f2c82;
     width: 100%;
     display: block;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
     margin: 5px 0px;
 }
 
@@ -81,7 +83,32 @@ div.campo > label {
     display: none;
 }
 
+div.campo > i {
+    color: white;
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+    
+}
 
+div.campo > input {
+    background-color: #94cfcd;
+    font-size: 1em;
+    width: calc(100% - 43.5px); /*Cal serve para fazer calculos com css*/
+    height: 100%;
+    transform: translateY(-45%);
+    
+    border: 0px;
+    border-radius: 8px;
+    padding: 4px;
+    vertical-align: text-top;
+    
+}
+
+div.campo > input:focus-within {
+    background-color: white;
+}
 
 form > input[type=submit] {
     display: block;
