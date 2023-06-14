@@ -72,7 +72,7 @@ GRANDES TELAS: ACIMA DE 1200PX
 
 }
 
-@media screen and (min-width: 1375px) {
+@media screen and (min-width: 1371px) {
     body {
         background-image: linear-gradient(to top, #49a09d, #1d1e58, #5f2c82 );
     }
