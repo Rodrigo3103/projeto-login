@@ -32,7 +32,7 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     background-color: white;
     width:250px;
     height:520px;
@@ -43,6 +43,7 @@ section#login {
     /*animação*/
     transition: width .4s, height .4s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -97,12 +98,13 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 43.5px); /*Cal serve para fazer calculos com css*/
     height: 100%;
-    transform: translateY(-45%);
+    
     
     border: 0px;
     border-radius: 8px;
     padding: 4px;
     vertical-align: text-top;
+    transform: translateY(-45%);
     
 }
 

@@ -17,7 +17,7 @@ GRANDES TELAS: ACIMA DE 1200PX
     
     section#login {
         width: 70vw;
-        height: 40vh;
+        height: 100%;
 
         
             
@@ -82,6 +82,7 @@ GRANDES TELAS: ACIMA DE 1200PX
     section#login > div#formulario {
         float: right;
         width: 50%;
+        
     }
 
 }
@@ -147,10 +148,10 @@ GRANDES TELAS: ACIMA DE 1200PX
     }
 
     div.campo > input {
-        width: calc(100% - 47PX);
+        width: calc(100% - 45.75PX);
         height: 44px;
-        margin-top: 5px;
         
+        margin-top: 5px;
        
 
  
