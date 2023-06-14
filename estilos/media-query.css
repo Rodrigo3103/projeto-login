@@ -30,6 +30,24 @@ GRANDES TELAS: ACIMA DE 1200PX
         width: 70%;
     }
 
+    div.campo > input[type=email], input[type=password] {
+        padding-right: 250px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        vertical-align: middle;
+    }
+
+    .mandar {
+        margin-top: 20px;
+  
+        vertical-align: middle;
+        position: relative;
+        top: -50%;
+        
+    }
+
+
+
 }
 
 @media screen and (min-width: 992px) and (max-width: 1370px)  {
@@ -50,6 +68,9 @@ GRANDES TELAS: ACIMA DE 1200PX
         float: right;
         width: 50%;
     }
+
+
+
 
 }
 
